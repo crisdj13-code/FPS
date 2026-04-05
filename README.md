@@ -31,8 +31,10 @@ The project leverages data analysis techniques in Python, along with SQL and dat
 This project was developed using a local Python environment and version-controlled with GitHub.
 
 1. Clone the Repository
+
 git clone https://github.com/yourusername/your-repo.git
 cd your-repo
+
 2. Create Virtual Environment
 
 A virtual environment was created to isolate project dependencies:
@@ -42,6 +44,7 @@ python3 -m venv venv
 Activate the environment:
 
 source venv/bin/activate
+
 3. Install Dependencies
 
 Install required Python packages:
@@ -51,6 +54,7 @@ pip install -r requirements.txt
 If running for the first time:
 
 pip install pandas numpy matplotlib jupyter ipykernel
+
 4. Set Up Jupyter Notebook Kernel
 python -m ipykernel install --user --name=fps-venv --display-name "Python (fps-venv)"
 
@@ -76,6 +80,7 @@ To run this project:
 Download datasets from external sources (e.g., Kaggle)
 Place them in:
 data/raw/
+
 7. Version Control Notes
 Virtual environment (venv/) is excluded via .gitignore
 Large datasets are not tracked
