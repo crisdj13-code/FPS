@@ -1,15 +1,15 @@
 # FPS
 
-Best practice from now on
+#Best practice from now on
 
-Never commit:
+#Never commit:
 
 venv/
 raw datasets
 processed datasets
 large outputs
 
-Commit only:
+#Commit only:
 
 notebooks
 src/
