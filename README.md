@@ -1,7 +1,5 @@
 # FPS
 
-#Best practice from now on
-
 #Never commit:
 
 venv/
